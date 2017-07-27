@@ -4,7 +4,7 @@
   "description": "",
   "main": "./dist/index.js",
   "scripts": {
-    "install": "mkdir ./dist && ./node_modules/.bin/babel --presets='es2015' -o ./dist/index.js ./src/index.js"
+    "install": "mkdir ./dist && $(npm bin)/babel --presets='es2015' -o ./dist/index.js ./src/index.js"
   },
   "author": "",
   "license": "ISC",
