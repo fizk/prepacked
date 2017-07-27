@@ -4,7 +4,9 @@
   "description": "",
   "main": "./dist/index.js",
   "scripts": {
-    "prepare": "mkdir ./dist &&./node_modules/.bin/babel --presets='es2015' -o ./dist/index.js ./src/index.js"
+    "prepare": "mkdir ./dist &&./node_modules/.bin/babel --presets='es2015' -o ./dist/index.js ./src/index.js",
+    "prepublish": "mkdir ./dist &&./node_modules/.bin/babel --presets='es2015' -o ./dist/index.js ./src/index.js",
+    "install": "mkdir ./dist &&./node_modules/.bin/babel --presets='es2015' -o ./dist/index.js ./src/index.js",
   },
   "author": "",
   "license": "ISC",
