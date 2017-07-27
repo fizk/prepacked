@@ -4,7 +4,8 @@
   "description": "",
   "main": "./dist/index.js",
   "scripts": {
-    "install": "mkdir ./dist && $(npm bin)/babel --presets='es2015' -o ./dist/index.js ./src/index.js"
+    "build": "$(npm bin)/babel --presets='es2015' -d dist ./src/index.js",
+    "install": "npm run build"
   },
   "author": "",
   "license": "ISC",
